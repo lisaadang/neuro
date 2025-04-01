@@ -73,3 +73,32 @@ footer {
   background: #333;
   color: white;
 }
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: 1px solid #007BFF;
+  background: white;
+  color: #007BFF;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.tab-button.active {
+  background: #007BFF;
+  color: white;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
