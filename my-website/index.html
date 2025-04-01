@@ -13,13 +13,38 @@
   </header>
 
   <section id="agenda">
-    <h2>Event Agenda</h2>
-    <ul>
-      <li><strong>Day 1:</strong> Welcome Ceremony, Keynote Speeches, Networking</li>
-      <li><strong>Day 2:</strong> Workshops, Panel Discussions, Evening Gala</li>
-      <li><strong>Day 3:</strong> Outdoor Activities, Closing Remarks</li>
-    </ul>
-  </section>
+  <h2>Event Agenda</h2>
+  <div class="tabs">
+    <button class="tab-button active" onclick="showTab('day1')">Day 1</button>
+    <button class="tab-button" onclick="showTab('day2')">Day 2</button>
+    <button class="tab-button" onclick="showTab('day3')">Day 3</button>
+  </div>
+  <div id="day1" class="tab-content active">
+    <h3>Day 1</h3>
+    <p>Welcome Ceremony, Keynote Speeches, Networking</p>
+  </div>
+  <div id="day2" class="tab-content">
+    <h3>Day 2</h3>
+    <p>Workshops, Panel Discussions, Evening Gala</p>
+  </div>
+  <div id="day3" class="tab-content">
+    <h3>Day 3</h3>
+    <p>Outdoor Activities, Closing Remarks</p>
+  </div>
+</section>
+
+<script>
+  function showTab(day) {
+    const tabs = document.querySelectorAll('.tab-content');
+    const buttons = document.querySelectorAll('.tab-button');
+
+    tabs.forEach(tab => tab.classList.remove('active'));
+    buttons.forEach(button => button.classList.remove('active'));
+
+    document.getElementById(day).classList.add('active');
+    document.querySelector(`button[onclick="showTab('${day}')"]`).classList.add('active');
+  }
+</script>
 
   <section id="rsvp">
     <h2>RSVP Now</h2>
