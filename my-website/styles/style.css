@@ -76,18 +76,28 @@ footer {
 
 .tabs {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-bottom: 20px;
 }
 
 .tab-button {
-  padding: 10px 20px;
+  flex: 1; /* Make buttons equally divide the width */
+  padding: 10px 0;
   margin: 0 5px;
   border: 1px solid #007BFF;
   background: white;
   color: #007BFF;
   cursor: pointer;
   border-radius: 4px;
+  text-align: center;
+}
+
+.tab-button:first-child {
+  margin-left: 0;
+}
+
+.tab-button:last-child {
+  margin-right: 0;
 }
 
 .tab-button.active {
@@ -101,4 +111,13 @@ footer {
 
 .tab-content.active {
   display: block;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
 }
