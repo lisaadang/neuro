@@ -160,3 +160,49 @@ ul li {
   margin: 0;
   font-size: 1rem;
 }
+
+#gallery {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 100%;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-container {
+  position: relative;
+  max-width: 100%;
+}
+
+#gallery-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.gallery-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.gallery-caption button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #007BFF;
+  margin: 0 10px;
+}
+
+.gallery-caption button:hover {
+  color: #0056b3;
+}
+
+#gallery-caption-text {
+  font-size: 1rem;
+  color: #333;
+}
