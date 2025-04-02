@@ -3,32 +3,35 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f9;
-  color: #333;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text color */
 }
 
 header {
-  background: #007BFF;
-  color: white;
+  background: #5539cc; /* Updated blue/purple background */
+  color: #e0e0e0; /* Light text color */
   padding: 20px;
   text-align: center;
 }
 
 h1 {
   margin: 0;
+  color: #00ff00; /* Lime green highlight for headings */
 }
 
 section {
   padding: 20px;
   margin: 20px auto;
   max-width: 800px;
-  background: white;
+  background: #1e1e1e; /* Darker section background */
+  color: #e0e0e0; /* Light text color */
+  border: 1px solid #333; /* Subtle border for sections */
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-  color: #007BFF;
+  color: #00ff00; /* Lime green highlight for headings */
 }
 
 ul {
@@ -57,22 +60,23 @@ input, select, button {
 }
 
 button {
-  background: #007BFF;
-  color: white;
+  background: #5539cc; /* Updated blue/purple background for buttons */
+  color: #e0e0e0; /* Light text on buttons */
   border: none;
   cursor: pointer;
   width: 100%;
 }
 
 button:hover {
-  background: #0056b3;
+  background: #00ff00; /* Lime green on hover */
+  color: #121212; /* Dark text on hover */
 }
 
 footer {
   text-align: center;
   padding: 10px;
-  background: #333;
-  color: white;
+  background: #5539cc; /* Updated blue/purple footer background */
+  color: #e0e0e0; /* Light text color */
 }
 
 .tabs {
@@ -82,12 +86,12 @@ footer {
 }
 
 .tab-button {
-  flex: 1; /* Make buttons equally divide the width */
+  flex: 1;
   padding: 10px 0;
   margin: 0 5px;
-  border: 1px solid #007BFF;
-  background: white;
-  color: #007BFF;
+  border: 1px solid #5539cc; /* Updated blue/purple border */
+  background: #1e1e1e; /* Darker background for tabs */
+  color: #5539cc; /* Updated blue/purple text */
   cursor: pointer;
   border-radius: 4px;
   text-align: center;
@@ -102,8 +106,8 @@ footer {
 }
 
 .tab-button.active {
-  background: #007BFF;
-  color: white;
+  background: #5539cc; /* Updated blue/purple active tab background */
+  color: #e0e0e0; /* Light text for active tab */
 }
 
 .tab-content {
@@ -114,23 +118,13 @@ footer {
   display: block;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-ul li {
-  margin: 10px 0;
-}
-
 #countdown {
   text-align: center;
   margin: 20px auto;
   padding: 20px;
   max-width: 800px;
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: #1e1e1e; /* Darker background for countdown */
+  color: #e0e0e0; /* Light text color */
 }
 
 .countdown-container {
@@ -143,8 +137,8 @@ ul li {
 .countdown-box {
   text-align: center;
   padding: 20px;
-  background: #007BFF;
-  color: white;
+  background: #5539cc; /* Updated blue/purple background for countdown boxes */
+  color: #e0e0e0; /* Light text color */
   border-radius: 8px;
   width: 120px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -154,6 +148,7 @@ ul li {
   display: block;
   font-size: 2.5rem;
   font-weight: bold;
+  color: #00ff00; /* Lime green for countdown numbers */
 }
 
 .countdown-box p {
@@ -166,9 +161,8 @@ ul li {
   margin: 20px auto;
   padding: 20px;
   max-width: 800px;
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: #1e1e1e; /* Darker background for gallery */
+  color: #e0e0e0; /* Light text color */
 }
 
 .gallery-container {
@@ -195,15 +189,15 @@ ul li {
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
-  color: #007BFF;
+  color: #00ff00; /* Lime green for gallery buttons */
   margin: 0 10px;
 }
 
 .gallery-caption button:hover {
-  color: #0056b3;
+  color: #5539cc; /* Updated blue/purple on hover */
 }
 
 #gallery-caption-text {
   font-size: 1rem;
-  color: #333;
+  color: #e0e0e0; /* Light text color */
 }
