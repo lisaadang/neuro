@@ -12,8 +12,56 @@
     <p>Join us for an unforgettable experience. Below, you'll find all the details you need.</p>
   </header>
 
-  https://github.com/github/brand-marketing-design/issues/1804
-
+  <section id="countdown">
+    <h2>Countdown to the Event</h2>
+    <div class="countdown-container">
+      <div class="countdown-box">
+        <span id="days">00</span>
+        <p>Days</p>
+      </div>
+      <div class="countdown-box">
+        <span id="hours">00</span>
+        <p>Hours</p>
+      </div>
+      <div class="countdown-box">
+        <span id="minutes">00</span>
+        <p>Minutes</p>
+      </div>
+      <div class="countdown-box">
+        <span id="seconds">00</span>
+        <p>Seconds</p>
+      </div>
+    </div>
+  </section>
+  
+  <script>
+    // Set the event date (YYYY-MM-DDTHH:MM:SS format)
+    const eventDate = new Date("2025-04-15T09:00:00").getTime();
+  
+    function updateCountdown() {
+      const now = new Date().getTime();
+      const timeLeft = eventDate - now;
+  
+      if (timeLeft > 0) {
+        const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+  
+        document.getElementById("days").textContent = days.toString().padStart(2, "0");
+        document.getElementById("hours").textContent = hours.toString().padStart(2, "0");
+        document.getElementById("minutes").textContent = minutes.toString().padStart(2, "0");
+        document.getElementById("seconds").textContent = seconds.toString().padStart(2, "0");
+      } else {
+        document.getElementById("countdown").innerHTML = "<h2>The event has started!</h2>";
+      }
+    }
+  
+    // Update the countdown every second
+    setInterval(updateCountdown, 1000);
+    updateCountdown(); // Initial call to display the countdown immediately
+  </script>
+  
 <section id="agenda">
   <h2>Event Agenda</h2>
   <div class="tabs">
