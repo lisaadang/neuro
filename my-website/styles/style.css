@@ -172,9 +172,9 @@ ul li {
 }
 
 .gallery-container {
-  position: relative;
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 800px; 
+  margin: 0 auto; 
+  width: 100%; 
 }
 
 #gallery-image {
