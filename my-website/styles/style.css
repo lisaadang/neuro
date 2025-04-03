@@ -93,8 +93,8 @@ button:focus {
   flex: 1; /* Make each tab take up equal space */
   padding: 12px 0; /* Add padding for height */
   margin: 0 5px; /* Add spacing between tabs */
-  background: #ffffff; /* White background for tabs */
-  color: #000000; /* Black text for tabs */
+  background: #000000; /* White background for tabs */
+  color: #ffffff; /* Black text for tabs */
   border: none; /* Remove borders */
   cursor: pointer; /* Pointer cursor for interactivity */
   text-align: center; /* Center-align text */
@@ -120,7 +120,7 @@ button:focus {
 }
 
 .tab-button:hover {
-  background: #acacac; /* Light gray background on hover */
+  background: #006EDB; /* Light gray background on hover */
   color: #000000; /* Black text on hover */
 }
 
