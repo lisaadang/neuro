@@ -67,7 +67,7 @@ button {
 }
 
 button:hover {
-  background: #D3FA37; /* White background on hover */
+  background: #e4ff97; /* White background on hover */
   color: #ffffff; /* Black text on hover */
 }
 
@@ -78,7 +78,7 @@ button:focus {
 /* Agenda Section */
 
 #agenda {
-  background-color: #D3FA37; /* Set the background color to #D3FA37 */
+  background-color: #e4ff97; /* Set the background color to #D3FA37 */
   padding: 30px; /* Ensure consistent padding */
   color: #000000; /* Black text for contrast */
 }
@@ -117,6 +117,7 @@ button:focus {
 
 .tab-content h3 {
   text-align: left; /* Left-align the headings inside the tab content */
+  max-height: 500px; /* Set a maximum height for the tab content */
 }
 
 .tab-button:hover {
@@ -136,14 +137,14 @@ button:focus {
 /* Countdown Timer */
 
 #countdown {
-  background-color: #D3FA37;
+  background-color: #e4ff97;
 }
 
 #countdown .countdown-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #D3FA37;
+  background-color: #e4ff97;
 }
 
 .countdown-box {
@@ -192,7 +193,7 @@ button:focus {
 
 #prev-btn:hover,
 #next-btn:hover {
-  color: #D3FA37; /* Change arrow color on hover */
+  color: #e4ff97; /* Change arrow color on hover */
 }
 
 #gallery-caption-text {
