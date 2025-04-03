@@ -147,6 +147,12 @@ button:focus {
   width: 120px;
 }
 
+.countdown-box p {
+  font-size: 1rem; /* Standard font size for labels */
+  margin: 0; /* Remove default margin to bring labels closer to numbers */
+  line-height: 1.2; /* Adjust line height for better spacing */
+}
+
 .countdown-box span {
   display: block;
   font-size: 2.5rem; /* Larger font size for countdown numbers */
