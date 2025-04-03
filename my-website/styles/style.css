@@ -1,7 +1,6 @@
-/* General Styles */
 body {
-  font-family: 'Inter', sans-serif; /* Modern sans-serif font */
-  line-height: 1.8;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
   margin: 0;
   padding: 0;
   background-color: #121212; /* Dark background */
@@ -9,41 +8,37 @@ body {
 }
 
 header {
-  background: #6a5acd; /* Softer blue/purple background */
-  color: #ffffff; /* White text for contrast */
-  padding: 40px 20px;
+  background: #5539cc; /* Updated blue/purple background */
+  color: #e0e0e0; /* Light text color */
+  padding: 20px;
   text-align: center;
-  border-bottom: 2px solid #a4ff7d; /* Lime green accent */
 }
 
 h1 {
   margin: 0;
-  font-size: 4rem; /* Large, bold heading */
-  font-weight: 700;
-  color: #a4ff7d; /* Muted lime green highlight */
-  letter-spacing: 2px;
-}
-
-h2 {
-  font-size: 2.5rem;
-  color: #a4ff7d; /* Muted lime green */
-  margin-bottom: 20px;
-}
-
-h3 {
-  font-size: 1.8rem;
-  color: #ffffff; /* White text for subheadings */
-  margin-bottom: 10px;
+  font-size: 9rem;
+  color: #00ff00; /* Lime green highlight for headings */
 }
 
 section {
-  padding: 40px;
-  margin: 40px auto;
-  max-width: 900px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
   background: #1e1e1e; /* Darker section background */
   color: #e0e0e0; /* Light text color */
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  border: 1px solid #333; /* Subtle border for sections */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #00ff00; 
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem; /* Smaller than h2 */
+  color: #e0e0e0; /* Light text color */
 }
 
 ul {
@@ -53,7 +48,6 @@ ul {
 
 ul li {
   margin: 10px 0;
-  font-size: 1.2rem;
 }
 
 form {
@@ -63,41 +57,34 @@ form {
 
 label {
   margin: 10px 0 5px;
-  font-size: 1rem;
 }
 
 input, select, button {
-  padding: 12px;
-  margin-bottom: 20px;
+  padding: 10px;
+  margin-bottom: 15px;
   border: 1px solid #ccc;
-  border-radius: 8px;
-  font-size: 1rem;
+  border-radius: 4px;
 }
 
 button {
-  background: #6a5acd; /* Softer blue/purple background */
-  color: #ffffff; /* White text */
+  background: #e0e0e0; /* Updated blue/purple background for buttons */
+  color: #121212; /* Light text on buttons */
   border: none;
   cursor: pointer;
-  max-width: 200px;
-  font-size: 1.2rem;
-  border-radius: 8px;
-  transition: background 0.3s ease, transform 0.2s ease;
+  max-width: 140px;
+  font-size: 2rem;
 }
 
 button:hover {
-  background: #a4ff7d; /* Muted lime green on hover */
+  background: #00ff00; /* Lime green on hover */
   color: #121212; /* Dark text on hover */
-  transform: scale(1.05); /* Slight zoom effect */
 }
 
 footer {
   text-align: center;
-  padding: 20px;
-  background: #6a5acd; /* Softer blue/purple footer background */
-  color: #ffffff; /* White text */
-  font-size: 0.9rem;
-  border-top: 2px solid #a4ff7d; /* Lime green accent */
+  padding: 10px;
+  background: #5539cc; /* Updated blue/purple footer background */
+  color: #e0e0e0; /* Light text color */
 }
 
 .tabs {
@@ -108,37 +95,44 @@ footer {
 
 .tab-button {
   flex: 1;
-  padding: 12px 0;
+  padding: 10px 0;
   margin: 0 5px;
-  border: 1px solid #6a5acd; /* Softer blue/purple border */
+  border: 1px solid #5539cc; /* Updated blue/purple border */
   background: #1e1e1e; /* Darker background for tabs */
-  color: #6a5acd; /* Softer blue/purple text */
+  color: #5539cc; /* Updated blue/purple text */
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 4px;
   text-align: center;
-  font-size: 1rem;
-  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.tab-button:first-child {
+  margin-left: 0;
+}
+
+.tab-button:last-child {
+  margin-right: 0;
 }
 
 .tab-button.active {
-  background: #6a5acd; /* Softer blue/purple active tab background */
-  color: #ffffff; /* White text for active tab */
+  background: #5539cc; /* Updated blue/purple active tab background */
+  color: #e0e0e0; /* Light text for active tab */
 }
 
-.tab-button:hover {
-  background: #a4ff7d; /* Muted lime green on hover */
-  color: #121212; /* Dark text on hover */
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
 }
 
 #countdown {
   text-align: center;
-  margin: 40px auto;
-  padding: 30px;
+  margin: 20px auto;
+  padding: 20px;
   max-width: 800px;
   background: #1e1e1e; /* Darker background for countdown */
   color: #e0e0e0; /* Light text color */
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .countdown-container {
@@ -151,29 +145,51 @@ footer {
 .countdown-box {
   text-align: center;
   padding: 20px;
-  background: #6a5acd; /* Softer blue/purple background */
-  color: #ffffff; /* White text */
-  border-radius: 12px;
+  background: #5539cc; /* Updated blue/purple background for countdown boxes */
+  color: #e0e0e0; /* Light text color */
+  border-radius: 8px;
   width: 120px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .countdown-box span {
   display: block;
-  font-size: 2.5rem; /* Larger font size for countdown numbers */
+  font-size: 2.5rem;
   font-weight: bold;
-  color: #a4ff7d; /* Muted lime green for countdown numbers */
+  color: #00ff00; /* Lime green for countdown numbers */
+}
+
+.countdown-box p {
+  margin: 0;
+  font-size: 1rem;
 }
 
 #gallery {
   text-align: center;
-  margin: 40px auto;
-  padding: 30px;
-  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
   background: #1e1e1e; /* Darker background for gallery */
   color: #e0e0e0; /* Light text color */
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-container {
+  max-width: 800px; 
+  margin: 0 auto; 
+  width: 100%; 
+}
+
+#gallery-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.gallery-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .gallery-caption button {
@@ -181,11 +197,15 @@ footer {
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
-  color: #a4ff7d; /* Muted lime green for gallery buttons */
+  color: #00ff00; /* Lime green for gallery buttons */
   margin: 0 10px;
-  transition: color 0.3s ease;
 }
 
 .gallery-caption button:hover {
-  color: #6a5acd; /* Softer blue/purple on hover */
+  color: #5539cc; /* Updated blue/purple on hover */
+}
+
+#gallery-caption-text {
+  font-size: 1rem;
+  color: #e0e0e0; /* Light text color */
 }
