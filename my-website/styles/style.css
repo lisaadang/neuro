@@ -67,8 +67,8 @@ input, select, button {
 }
 
 button {
-  background: #5539cc; /* Updated blue/purple background for buttons */
-  color: #e0e0e0; /* Light text on buttons */
+  background: #e0e0e0; /* Updated blue/purple background for buttons */
+  color: #121212; /* Light text on buttons */
   border: none;
   cursor: pointer;
   max-width: 140px;
