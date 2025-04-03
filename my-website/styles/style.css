@@ -8,6 +8,16 @@ body {
   color: #000000; /* Black text for contrast */
 }
 
+
+header {
+  max-width: 800px; /* Ensure the hero section has the same max-width */
+  margin: 0 auto; /* Center the hero section */
+  background: #ffffff; /* White background for hero section */
+  color: #000000; /* Black text */
+  padding: 60px 20px;
+  text-align: center;
+}
+
 h1 {
   margin: 0;
   font-size: 3rem; /* Large, bold heading */
@@ -82,14 +92,6 @@ button:hover {
   transform: scale(1.05); /* Slight zoom effect */
 }
 
-.hero {
-  max-width: 800px; /* Ensure the hero section has the same max-width */
-  margin: 0 auto; /* Center the hero section */
-  padding: 40px 20px; /* Add padding for spacing */
-  background: #ffffff; /* White background */
-  color: #000000; /* Black text */
-  text-align: center; /* Center-align the content */
-}
 
 footer {
   text-align: center;
