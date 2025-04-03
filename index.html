@@ -64,17 +64,19 @@
     updateCountdown(); // Initial call to display the countdown immediately
   </script>
 
-  <section id="gallery" class="container">
-    <h2></h2>There's a history of craft and  </h2>
-    <div class="gallery-container">
-      <img id="gallery-image" src="my-website/images/nakashimatop-full.jpg" alt="Gallery Image 1">
-      <div class="gallery-caption">
-        <button id="prev-btn" onclick="prevImage()">&#9664;</button>
+<section id="gallery" class="container">
+  <h2>A few potential highlights of the weekend.</h2>
+  <div class="gallery-container">
+    <img id="gallery-image" src="my-website/images/nakashimatop-full.jpg" alt="Gallery Image 1">
+    <div class="gallery-caption">
+      <button id="prev-btn" onclick="prevImage()">&#9664;</button>
+      <div class="caption-text-container">
         <span id="gallery-caption-text">Caption for Image 1</span>
-        <button id="next-btn" onclick="nextImage()">&#9654;</button>
       </div>
+      <button id="next-btn" onclick="nextImage()">&#9654;</button>
     </div>
-  </section>
+  </div>
+</section>
 
   <script>
     const images = [

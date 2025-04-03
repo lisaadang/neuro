@@ -148,23 +148,35 @@ button:focus {
 }
 
 /* Gallery Section */
-#gallery img {
-  max-width: 100%; /* Ensure the image does not exceed the container's width */
-  height: auto; /* Maintain the aspect ratio */
-  display: block; /* Remove any inline spacing caused by default inline-block behavior */
-  margin: 0 auto; /* Center the image horizontally */
+.gallery-caption {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: space-between; /* Space out the arrows */
+  align-items: center; /* Align arrows and caption vertically */
+  margin-top: 10px; /* Add spacing above the caption area */
 }
 
-.gallery-caption button {
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-  color: #000000; /* Black for gallery buttons */
-  margin: 0 10px;
-  transition: color 0.3s ease;
+.caption-text-container {
+  flex: 1; /* Allow the caption text to take up available space */
+  text-align: center; /* Center-align the caption text */
+  padding: 0 10px; /* Add padding to prevent text from touching the arrows */
 }
 
-.gallery-caption button:hover {
-  color: #ffffff; /* White on hover */
+#prev-btn,
+#next-btn {
+  background: none; /* Remove default button styling */
+  border: none; /* Remove borders */
+  font-size: 1.5rem; /* Increase arrow size */
+  cursor: pointer; /* Pointer cursor for interactivity */
+  color: #000000; /* Black color for arrows */
+  transition: color 0.3s ease; /* Smooth hover transition */
+}
+
+#prev-btn:hover,
+#next-btn:hover {
+  color: #D3FA37; /* Change arrow color on hover */
+}
+
+#gallery-caption-text {
+  font-size: 1rem; /* Standard font size for captions */
+  color: #000000; /* Black text for captions */
 }
