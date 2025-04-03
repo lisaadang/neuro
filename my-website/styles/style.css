@@ -63,7 +63,7 @@ input, select, button {
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 
 button {
@@ -71,7 +71,7 @@ button {
   color: #121212; /* Light text on buttons */
   border: none;
   cursor: pointer;
-  max-width: 140px;
+  max-width: 300px;
   font-size: 2rem;
 }
 
