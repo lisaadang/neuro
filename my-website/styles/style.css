@@ -128,6 +128,7 @@ button:focus {
 .tab-content {
   display: none; /* Hide all tab content by default */
   text-align: left;
+  max-height: 500px; /* Set a maximum height for the tab content */
 }
 
 .tab-content.active {
