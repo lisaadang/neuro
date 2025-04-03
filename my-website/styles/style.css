@@ -55,8 +55,8 @@ ul li {
 }
 
 button {
-  background: #D3FA37; /* Background */
-  color: #000000; /* Text */
+  background: #000000; /* Background */
+  color: #ffffff; /* Text */
   border: none; /* Remove borders */
   padding: 15px 30px; /* Add padding for size */
   font-size: 2rem; 
@@ -69,7 +69,7 @@ button {
 }
 
 button:hover {
-  background: #000000; /* White background on hover */
+  background: #D3FA37; /* White background on hover */
   color: #ffffff; /* Black text on hover */
 }
 
