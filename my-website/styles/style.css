@@ -16,6 +16,7 @@ header {
 
 h1 {
   margin: 0;
+  font-size: 3rem;
   color: #00ff00; /* Lime green highlight for headings */
 }
 
@@ -31,7 +32,13 @@ section {
 }
 
 h2 {
-  color: #00ff00; /* Lime green highlight for headings */
+  color: #00ff00; 
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem; /* Smaller than h2 */
+  color: #e0e0e0; /* Light text color */
 }
 
 ul {
