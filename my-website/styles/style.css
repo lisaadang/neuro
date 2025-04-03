@@ -8,13 +8,6 @@ body {
   color: #000000; /* Black text for contrast */
 }
 
-header {
-  background: #ffffff; /* White background for hero section */
-  color: #000000; /* Black text */
-  padding: 60px 20px;
-  text-align: center;
-}
-
 h1 {
   margin: 0;
   font-size: 3rem; /* Large, bold heading */
