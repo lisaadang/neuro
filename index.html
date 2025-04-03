@@ -147,19 +147,6 @@
   </div>
 </section>
 
-<script>
-  function showTab(day) {
-    const tabs = document.querySelectorAll('.tab-content');
-    const buttons = document.querySelectorAll('.tab-button');
-
-    tabs.forEach(tab => tab.classList.remove('active'));
-    buttons.forEach(button => button.classList.remove('active'));
-
-    document.getElementById(day).classList.add('active');
-    document.querySelector(`button[onclick="showTab('${day}')"]`).classList.add('active');
-  }
-</script>
-
   <footer>
     <p>Contact us at <a href="mailto:event@example.com">event@example.com</a> for more information.</p>
   </footer>
