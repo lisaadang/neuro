@@ -55,8 +55,8 @@ ul li {
 }
 
 button {
-  background: #000000; /* Black background */
-  color: #ffffff; /* White text */
+  background: #ffffff; /* Black background */
+  color: #000000; /* White text */
   border: none; /* Remove borders */
   padding: 15px 30px; /* Add padding for size */
   font-size: 1.2rem; /* Increase font size for prominence */
@@ -128,6 +128,7 @@ button:focus {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background: #D3FA37;
 }
 
 .countdown-box {
