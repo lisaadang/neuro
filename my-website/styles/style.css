@@ -4,46 +4,43 @@ body {
   line-height: 1.8;
   margin: 0;
   padding: 0;
-  background-color: #000000; /* Pure black background */
-  color: #ffffff; /* White text for contrast */
+  background-color: #f8f8f8; /* Very light gray background */
+  color: #000000; /* Black text for contrast */
 }
 
 header {
-  background: #000000; /* Black background */
-  color: #ffffff; /* White text */
+  background: #ffffff; /* White background for hero section */
+  color: #000000; /* Black text */
   padding: 60px 20px;
   text-align: center;
-  border-bottom: 2px solid #f5c518; /* Bright yellow accent */
 }
 
 h1 {
   margin: 0;
-  font-size: 4rem; /* Large, bold heading */
+  font-size: 3rem; /* Large, bold heading */
   font-weight: 700;
-  color: #f5c518; /* Bright yellow highlight */
+  color: #000000; /* Black text for headings */
   letter-spacing: 1px;
 }
 
 h2 {
-  font-size: 2.5rem;
-  color: #ffffff; /* White text for subheadings */
+  font-size: 2rem;
+  color: #000000; /* Black text for subheadings */
   margin-bottom: 20px;
 }
 
 h3 {
-  font-size: 1.8rem;
-  color: #f5c518; /* Bright yellow for smaller headings */
+  font-size: 1.5rem;
+  color: #000000; /* Black text for smaller headings */
   margin-bottom: 10px;
 }
 
 section {
-  padding: 60px 20px;
-  margin: 40px auto;
-  max-width: 1200px;
-  background: #121212; /* Dark gray background for sections */
-  color: #ffffff; /* White text */
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  padding: 40px 20px;
+  margin: 0 auto;
+  max-width: 800px; /* Fixed width for containers */
+  background: #ffffff; /* White background for containers */
+  color: #000000; /* Black text */
 }
 
 ul {
@@ -69,22 +66,20 @@ label {
 input, select, button {
   padding: 12px;
   margin-bottom: 20px;
-  border: 1px solid #333333;
-  border-radius: 8px;
+  border: 1px solid #cccccc; /* Light gray border for inputs */
   font-size: 1rem;
-  background: #1e1e1e; /* Dark gray background for inputs */
-  color: #ffffff; /* White text */
+  background: #ffffff; /* White background for inputs */
+  color: #000000; /* Black text */
 }
 
 button {
-  background: #f5c518; /* Bright yellow background */
-  color: #000000; /* Black text */
+  background: #000000; /* Black background for buttons */
+  color: #ffffff; /* White text */
   border: none;
   cursor: pointer;
   max-width: 200px;
   font-size: 1.2rem;
   font-weight: 700;
-  border-radius: 8px;
   transition: background 0.3s ease, transform 0.2s ease;
 }
 
@@ -97,10 +92,9 @@ button:hover {
 footer {
   text-align: center;
   padding: 20px;
-  background: #000000; /* Black footer background */
-  color: #ffffff; /* White text */
+  background: #ffffff; /* White footer background */
+  color: #000000; /* Black text */
   font-size: 0.9rem;
-  border-top: 2px solid #f5c518; /* Bright yellow accent */
 }
 
 .tabs {
@@ -113,52 +107,44 @@ footer {
   flex: 1;
   padding: 12px 0;
   margin: 0 5px;
-  border: 1px solid #333333; /* Dark gray border */
-  background: #1e1e1e; /* Dark gray background for tabs */
-  color: #ffffff; /* White text */
+  background: #ffffff; /* White background for tabs */
+  color: #000000; /* Black text */
   cursor: pointer;
-  border-radius: 8px;
   text-align: center;
   font-size: 1rem;
   transition: background 0.3s ease, color 0.3s ease;
 }
 
 .tab-button.active {
-  background: #f5c518; /* Bright yellow active tab background */
-  color: #000000; /* Black text for active tab */
+  background: #000000; /* Black background for active tab */
+  color: #ffffff; /* White text for active tab */
 }
 
 .tab-button:hover {
-  background: #ffffff; /* White background on hover */
-  color: #000000; /* Black text on hover */
+  background: #000000; /* Black background on hover */
+  color: #ffffff; /* White text on hover */
 }
 
 #countdown {
   text-align: center;
-  margin: 40px auto;
   padding: 30px;
-  max-width: 1200px;
-  background: #121212; /* Dark gray background for countdown */
-  color: #ffffff; /* White text */
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  background: #ffffff; /* White background for countdown */
+  color: #000000; /* Black text */
 }
 
 .countdown-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 20px;
 }
 
 .countdown-box {
   text-align: center;
   padding: 20px;
-  background: #f5c518; /* Bright yellow background */
-  color: #000000; /* Black text */
-  border-radius: 12px;
+  background: #000000; /* Black background for countdown boxes */
+  color: #ffffff; /* White text */
   width: 120px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .countdown-box span {
@@ -169,13 +155,10 @@ footer {
 
 #gallery {
   text-align: center;
-  margin: 40px auto;
   padding: 30px;
-  max-width: 1200px;
-  background: #121212; /* Dark gray background for gallery */
-  color: #ffffff; /* White text */
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  background: #ffffff; /* White background for gallery */
+  color: #000000; /* Black text */
 }
 
 .gallery-caption button {
@@ -183,7 +166,7 @@ footer {
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
-  color: #f5c518; /* Bright yellow for gallery buttons */
+  color: #000000; /* Black for gallery buttons */
   margin: 0 10px;
   transition: color 0.3s ease;
 }
