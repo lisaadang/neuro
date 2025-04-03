@@ -79,35 +79,35 @@
 </section>
 
   <script>
-    const images = [
-      { src: "my-website/images/nakashimatop-full.jpg", caption: "The Nakashima complex, including more than 15 innovative structures built by George Nakashima, is designated a National Historic Landmark. " },
-      { src: "my-website/images/Vanna-Venturi-House.jpg", caption: "The first example of Postmodern architecture by Robert Venturi and Densise Scott Brown." },
-      { src: "my-website/images/nakashimatop-full.jpg", caption: "Caption for Image 3" },
-    ];
+const images = [
+  { src: "my-website/images/nakashimatop-full.jpg", caption: "The Nakashima complex, including more than 15 innovative structures built by George Nakashima, is designated a National Historic Landmark." },
+  { src: "my-website/images/Vanna-Venturi-House.jpg", caption: "The first example of Postmodern architecture by Robert Venturi and Denise Scott Brown." },
+  { src: "my-website/images/nakashimatop-full.jpg", caption: "Caption for Image 3" },
+];
 
-    let currentImageIndex = 0;
+let currentImageIndex = 0;
 
-    function updateGallery() {
-      const imageElement = document.getElementById("gallery-image");
-      const captionElement = document.getElementById("gallery-caption-text");
+function updateGallery() {
+  const imageElement = document.getElementById("gallery-image");
+  const captionElement = document.getElementById("gallery-caption-text");
 
-      imageElement.src = images[currentImageIndex].src;
-      imageElement.alt = images[currentImageIndex].caption;
-      captionElement.textContent = images[currentImageIndex].caption;
-    }
+  imageElement.src = images[currentImageIndex].src;
+  imageElement.alt = images[currentImageIndex].caption;
+  captionElement.textContent = images[currentImageIndex].caption;
+}
 
-    function nextImage() {
-      currentImageIndex = (currentImageIndex + 1) % images.length;
-      updateGallery();
-    }
+function nextImage() {
+  currentImageIndex = (currentImageIndex + 1) % images.length;
+  updateGallery();
+}
 
-    function prevImage() {
-      currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
-      updateGallery();
-    }
+function prevImage() {
+  currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+  updateGallery();
+}
 
-    // Initialize the gallery
-    updateGallery();
+// Initialize the gallery
+updateGallery();
   </script>
 
   <section id="agenda" class="container">
