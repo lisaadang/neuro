@@ -121,7 +121,8 @@ button:focus {
 }
 
 .tab-button:hover {
-  background: #721A4D; /* Light gray background on hover */
+  transform: scale(1.05); /* Slightly enlarge the button text on hover */
+  background: #000000; /* Light gray background on hover */
   color: #ffffff; /* Black text on hover */
 }
 
