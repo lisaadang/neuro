@@ -89,6 +89,15 @@ button:hover {
   transform: scale(1.05); /* Slight zoom effect */
 }
 
+.hero {
+  max-width: 800px; /* Ensure the hero section has the same max-width */
+  margin: 0 auto; /* Center the hero section */
+  padding: 40px 20px; /* Add padding for spacing */
+  background: #ffffff; /* White background */
+  color: #000000; /* Black text */
+  text-align: center; /* Center-align the content */
+}
+
 footer {
   text-align: center;
   padding: 20px;
