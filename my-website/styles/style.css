@@ -136,7 +136,7 @@ button:focus {
 
 .countdown-box {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   background: #ffffff; /* Black background for countdown boxes */
   color: #000000; /* White text */
   width: 120px;
@@ -145,6 +145,7 @@ button:focus {
 .countdown-box span {
   display: block;
   font-size: 2.5rem; /* Larger font size for countdown numbers */
+  margin-bottom: 5px;
 }
 
 /* Gallery Section */
