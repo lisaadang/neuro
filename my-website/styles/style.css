@@ -108,13 +108,18 @@ button:focus {
   color: #ffffff; /* White text for active tab */
 }
 
+.tab-content h3 {
+  text-align: left; /* Left-align the headings inside the tab content */
+}
+
 .tab-button:hover {
-  background: #f0f0f0; /* Light gray background on hover */
+  background: #acacac; /* Light gray background on hover */
   color: #000000; /* Black text on hover */
 }
 
 .tab-content {
   display: none; /* Hide all tab content by default */
+  text-align: left;
 }
 
 .tab-content.active {
