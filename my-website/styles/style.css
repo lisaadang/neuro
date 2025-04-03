@@ -101,6 +101,8 @@ footer {
   font-size: 0.9rem;
 }
 
+/* AGENDA */
+
 .tabs {
   display: flex; /* Use flexbox to align the tabs */
   justify-content: space-between; /* Distribute tabs evenly */
@@ -138,6 +140,8 @@ footer {
   color: #000000; /* Black text on hover */
 }
 
+/* COUNTDOWN TIMER */
+
 #countdown {
   text-align: center;
   padding: 30px;
@@ -166,12 +170,23 @@ footer {
   font-weight: bold;
 }
 
+/* GALLERY */
+
 #gallery {
-  text-align: center;
-  padding: 30px;
-  max-width: 800px;
-  background: #ffffff; /* White background for gallery */
+  max-width: 800px; /* Match the width of other containers */
+  margin: 0 auto; /* Center the gallery section */
+  padding: 30px; /* Add consistent padding */
+  background: #ffffff; /* White background for consistency */
   color: #000000; /* Black text */
+  text-align: center; /* Center-align the content */
+}
+
+.gallery-container {
+  max-width: 800px; /* Match the width of other containers */
+  margin: 0 auto; /* Center the gallery container */
+  padding: 30px; /* Add consistent padding */
+  background: #ffffff; /* White background for consistency */
+  text-align: center; /* Center-align the content */
 }
 
 #gallery img {
