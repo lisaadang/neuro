@@ -1,3 +1,13 @@
+/* General Container Style */
+.container {
+  max-width: 800px; /* Consistent width for all containers */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 30px; /* Add consistent padding */
+  background: #ffffff; /* White background for all containers */
+  color: #000000; /* Black text for contrast */
+  text-align: center; /* Center-align content */
+}
+
 /* General Styles */
 body {
   font-family: 'Inter', sans-serif; /* Modern sans-serif font */
@@ -8,13 +18,9 @@ body {
   color: #000000; /* Black text for contrast */
 }
 
-
 header {
-  max-width: 800px; /* Ensure the hero section has the same max-width */
-  margin: 0 auto; /* Center the hero section */
   background: #ffffff; /* White background for hero section */
   color: #000000; /* Black text */
-  padding: 60px 20px;
   text-align: center;
 }
 
@@ -38,14 +44,6 @@ h3 {
   margin-bottom: 10px;
 }
 
-section {
-  padding: 40px 20px;
-  margin: 0 auto;
-  max-width: 800px; /* Fixed width for containers */
-  background: #ffffff; /* White background for containers */
-  color: #000000; /* Black text */
-}
-
 ul {
   list-style-type: none;
   padding: 0;
@@ -56,53 +54,7 @@ ul li {
   font-size: 1.2rem;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-label {
-  margin: 10px 0 5px;
-  font-size: 1rem;
-}
-
-input, select, button {
-  padding: 12px;
-  margin-bottom: 20px;
-  border: 1px solid #cccccc; /* Light gray border for inputs */
-  font-size: 1rem;
-  background: #ffffff; /* White background for inputs */
-  color: #000000; /* Black text */
-}
-
-button {
-  background: #000000; /* Black background for buttons */
-  color: #ffffff; /* White text */
-  border: none;
-  cursor: pointer;
-  max-width: 200px;
-  font-size: 1.2rem;
-  font-weight: 700;
-  transition: background 0.3s ease, transform 0.2s ease;
-}
-
-button:hover {
-  background: #ffffff; /* White background on hover */
-  color: #000000; /* Black text on hover */
-  transform: scale(1.05); /* Slight zoom effect */
-}
-
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #ffffff; /* White footer background */
-  color: #000000; /* Black text */
-  font-size: 0.9rem;
-}
-
-/* AGENDA */
-
+/* Tabs for Agenda Section */
 .tabs {
   display: flex; /* Use flexbox to align the tabs */
   justify-content: space-between; /* Distribute tabs evenly */
@@ -148,17 +100,8 @@ footer {
   display: block; /* Show only the active tab content */
 }
 
-/* COUNTDOWN TIMER */
-
-#countdown {
-  text-align: center;
-  padding: 30px;
-  max-width: 800px;
-  background: #ffffff; /* White background for countdown */
-  color: #000000; /* Black text */
-}
-
-.countdown-container {
+/* Countdown Timer */
+#countdown .countdown-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -178,25 +121,7 @@ footer {
   font-weight: bold;
 }
 
-/* GALLERY */
-
-#gallery {
-  max-width: 800px; /* Match the width of other containers */
-  margin: 0 auto; /* Center the gallery section */
-  padding: 30px; /* Add consistent padding */
-  background: #ffffff; /* White background for consistency */
-  color: #000000; /* Black text */
-  text-align: center; /* Center-align the content */
-}
-
-.gallery-container {
-  max-width: 800px; /* Match the width of other containers */
-  margin: 0 auto; /* Center the gallery container */
-  padding: 30px; /* Add consistent padding */
-  background: #ffffff; /* White background for consistency */
-  text-align: center; /* Center-align the content */
-}
-
+/* Gallery Section */
 #gallery img {
   max-width: 100%; /* Ensure the image does not exceed the container's width */
   height: auto; /* Maintain the aspect ratio */
