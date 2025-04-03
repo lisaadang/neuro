@@ -71,7 +71,8 @@ button {
   color: #e0e0e0; /* Light text on buttons */
   border: none;
   cursor: pointer;
-  max-width: 40px;
+  max-width: 140px;
+  font-size: 2rem;
 }
 
 button:hover {
