@@ -75,7 +75,14 @@ button:focus {
   outline: none; /* Remove focus outline */
 }
 
-/* Tabs for Agenda Section */
+/* Agenda Section */
+
+#agenda {
+  background-color: #D3FA37; /* Set the background color to #D3FA37 */
+  padding: 30px; /* Ensure consistent padding */
+  color: #000000; /* Black text for contrast */
+}
+
 .tabs {
   display: flex; /* Use flexbox to align the tabs */
   justify-content: space-between; /* Distribute tabs evenly */
@@ -200,3 +207,4 @@ button:focus {
   display: block; /* Remove inline spacing caused by default inline-block behavior */
   margin: 0 auto; /* Center the image horizontally */
 }
+
