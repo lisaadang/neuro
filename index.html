@@ -1,5 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+  <script>
+    // Password protection using a hashed password
+    const hashedPassword = "5e884898da28047151d0e56f8dc6292773603d0d6aabbddf8e4b7d4b9f3e4f8e"; // SHA-256 hash of "phillyneuro"
+
+    async function hashInput(input) {
+      const encoder = new TextEncoder();
+      const data = encoder.encode(input);
+      const hashBuffer = await crypto.subtle.digest("SHA-256", data);
+      const hashArray = Array.from(new Uint8Array(hashBuffer));
+      return hashArray.map(byte => byte.toString(16).padStart(2, "0")).join("");
+    }
+
+    async function checkPassword() {
+      const userPassword = prompt("Please enter the password to access this page:");
+      if (userPassword) {
+        const userHash = await hashInput(userPassword);
+        if (userHash !== hashedPassword) {
+          alert("Incorrect password. You cannot access this page.");
+          document.body.innerHTML = ""; // Clear the page content
+        }
+      } else {
+        alert("Password is required to access this page.");
+        document.body.innerHTML = ""; // Clear the page content
+      }
+    }
+
+    // Run the password check before loading the page
+    checkPassword();
+  </script>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
