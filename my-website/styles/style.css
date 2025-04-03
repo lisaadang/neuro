@@ -182,10 +182,9 @@ button:focus {
 }
 
 .gallery-container img {
-  max-width: 100%; /* Ensure the image does not exceed the container's width */
-  max-height: 400px; /* Limit the height of the image */
-  height: auto; /* Maintain the aspect ratio */
+  width: 100%; /* Make the image fill the width of the container */
+  height: 400px; /* Set a fixed height for the image */
+  object-fit: cover; /* Crop the image to fill the container */
   display: block; /* Remove inline spacing caused by default inline-block behavior */
   margin: 0 auto; /* Center the image horizontally */
-  object-fit: contain; /* Ensure the image fits within the specified dimensions */
 }
