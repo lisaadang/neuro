@@ -59,7 +59,7 @@ button {
   color: #ffffff; /* Text */
   border: none; /* Remove borders */
   padding: 15px 30px; /* Add padding for size */
-  font-size: 2.5rem; 
+  font-size: 2rem; 
   cursor: pointer; /* Pointer cursor for interactivity */
   display: inline-block; /* Ensure proper button alignment */
   text-align: center; /* Center-align text */
