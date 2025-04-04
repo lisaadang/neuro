@@ -23,6 +23,15 @@ header {
   color: #000000; /* Black text */
   text-align: center;
 }
+a {
+  text-decoration: none; /* Remove underline */
+  color: purple; /* Set link color to purple */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover for better accessibility */
+  color: darkviolet; /* Optional: Change color on hover for better interactivity */
+}
 
 h1 {
   margin: 0;
