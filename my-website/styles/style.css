@@ -39,8 +39,7 @@ h2 {
 }
 
 .event-dates {
-  font-size: 2rem; /* Adjust font size for emphasis */
-  font-weight: bold; /* Make the dates bold */
+  font-size: 1.5rem; /* Adjust font size for emphasis */
   color: #555555; /* Use a subtle gray color for contrast */
   margin: 10px 0; /* Add spacing above and below */
   letter-spacing: 1px; /* Add slight spacing between letters */
