@@ -74,8 +74,9 @@ button {
 }
 
 button:hover {
-  background: #555555; /* White background on hover */
-  color: #ffffff; /* Black text on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+  background: #555555; /* Change background color on hover */
+  color: #ffffff; /* Keep text color on hover */
 }
 
 button:focus {
