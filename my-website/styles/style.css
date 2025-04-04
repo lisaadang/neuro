@@ -121,7 +121,7 @@ button:focus {
 @media (max-width: 768px) {
   .gallery-caption {
     flex-direction: column; /* Stack arrows and caption vertically */
-    align-items: center; /* Center-align the caption text */
+    align-items: center; /* Center-align all elements */
   }
 
   #prev-btn,
@@ -130,6 +130,10 @@ button:focus {
     width: 50%; /* Make each arrow take up half the width */
     text-align: center; /* Center-align the arrow icons */
     margin: 0; /* Remove extra margins */
+    height: 50px; /* Ensure consistent height for both arrows */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Vertically center the arrow icons */
+    justify-content: center; /* Horizontally center the arrow icons */
   }
 
   #prev-btn {
