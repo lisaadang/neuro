@@ -74,7 +74,7 @@ button {
 }
 
 button:hover {
-  transform: scale(1.05); /* Slightly enlarge the button on hover */
+  transform: scale(1.1); /* Slightly enlarge the button on hover */
   background: #555555; /* Change background color on hover */
   color: #ffffff; /* Keep text color on hover */
 }
