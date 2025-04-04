@@ -292,6 +292,8 @@ button:focus {
   justify-content: space-between; /* Space out the arrows */
   align-items: center; /* Align arrows and caption text to the top */
   margin-top: 10px; /* Add spacing above the caption area */
+  height: 60px; /* Set a fixed height for the caption container */
+  position: relative; /* Ensure proper positioning of child elements */
 }
 
 .caption-text-container {
