@@ -83,6 +83,10 @@ button:focus {
   outline: none; /* Remove focus outline */
 }
 
+#rsvp button {
+  margin: 20px 0; /* Add vertical space above and below the button */
+}
+
 /* Agenda Section */
 
 #agenda {
