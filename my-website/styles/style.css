@@ -254,7 +254,7 @@ button:focus {
 .gallery-caption {
   display: flex; /* Use flexbox for alignment */
   justify-content: space-between; /* Space out the arrows */
-  align-items: flex-start; /* Align arrows and caption text to the top */
+  align-items: center; /* Align arrows and caption text to the top */
   margin-top: 10px; /* Add spacing above the caption area */
 }
 
@@ -271,6 +271,11 @@ button:focus {
   font-size: 1.5rem; /* Increase arrow size */
   cursor: pointer; /* Pointer cursor for interactivity */
   color: #000000; /* Black color for arrows */
+  width: 50px; /* Set a fixed width for the buttons */
+  height: 50px; /* Set a fixed height for the buttons */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Vertically center the arrow icons */
+  justify-content: center; /* Horizontally center the arrow icons */
   transition: color 0.3s ease; /* Smooth hover transition */
 }
 
