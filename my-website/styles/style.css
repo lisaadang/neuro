@@ -199,6 +199,10 @@ button:focus {
   color: #000000; /* Black text for contrast */
 }
 
+#agenda p {
+  text-align: left; /* Align the paragraph text to the left */
+}
+
 .tabs {
   display: flex; /* Use flexbox to align the tabs */
   justify-content: space-between; /* Distribute tabs evenly */
