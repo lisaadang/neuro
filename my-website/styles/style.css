@@ -70,6 +70,7 @@ button {
   display: inline-block; /* Ensure proper button alignment */
   text-align: center; /* Center-align text */
   transition: background 0.3s ease, color 0.3s ease; /* Smooth hover transition */
+  border-radius: 30px; /* Add corner radius */
 }
 
 button:hover {
