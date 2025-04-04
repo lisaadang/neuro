@@ -269,7 +269,7 @@ button:focus {
 .agenda-time {
   display: block; /* Make the time appear on its own line */
   font-size: 0.8rem; /* Make the time smaller than the description */
-  color: #8b8b8b; /* Use a lighter color for the time */
+  color: #686868; /* Use a lighter color for the time */
 }
 
 .agenda-list p {
