@@ -121,17 +121,27 @@ button:focus {
 @media (max-width: 768px) {
   .gallery-caption {
     flex-direction: column; /* Stack arrows and caption vertically */
-    align-items: center; /* Center-align all elements */
+    align-items: center; /* Center-align the caption text */
   }
 
   #prev-btn,
   #next-btn {
-    order: 1; /* Place arrows below the caption */
-    margin: 10px; /* Add spacing around the arrows */
+    order: 0; /* Place arrows above the caption */
+    width: 50%; /* Make each arrow take up half the width */
+    text-align: center; /* Center-align the arrow icons */
+    margin: 0; /* Remove extra margins */
+  }
+
+  #prev-btn {
+    text-align: left; /* Anchor the back arrow to the left */
+  }
+
+  #next-btn {
+    text-align: right; /* Anchor the forward arrow to the right */
   }
 
   .caption-text-container {
-    order: 0; /* Ensure the caption is above the arrows */
+    order: 1; /* Ensure the caption is below the arrows */
     text-align: center; /* Center-align the caption text */
     width: 100%; /* Allow the caption to span the full width */
     padding: 10px 0; /* Add padding for spacing */
