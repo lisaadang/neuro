@@ -121,20 +121,25 @@ button:focus {
 
 @media (max-width: 768px) {
   .gallery-caption {
-    flex-direction: column; /* Stack arrows and caption vertically */
-    align-items: center; /* Center-align all elements */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: row; /* Ensure arrows are in a row */
+    justify-content: space-between; /* Space arrows to the edges */
+    align-items: center; /* Align arrows vertically */
+    width: 100%; /* Ensure the container spans the full width */
   }
 
   #prev-btn,
   #next-btn {
-    order: 0; /* Place arrows above the caption */
-    width: 50%; /* Make each arrow take up half the width */
-    text-align: center; /* Center-align the arrow icons */
-    margin: 0; /* Remove extra margins */
-    height: 50px; /* Ensure consistent height for both arrows */
+    width: 50px; /* Set a fixed width for both buttons */
+    height: 50px; /* Set a fixed height for both buttons */
     display: flex; /* Use flexbox for alignment */
     align-items: center; /* Vertically center the arrow icons */
     justify-content: center; /* Horizontally center the arrow icons */
+    background: none; /* Remove default button styling */
+    border: none; /* Remove borders */
+    font-size: 2rem; /* Ensure consistent arrow size */
+    cursor: pointer; /* Pointer cursor for interactivity */
+    color: #000000; /* Black color for arrows */
   }
 
   #prev-btn {
@@ -146,7 +151,6 @@ button:focus {
   }
 
   .caption-text-container {
-    order: 1; /* Ensure the caption is below the arrows */
     text-align: center; /* Center-align the caption text */
     width: 100%; /* Allow the caption to span the full width */
     padding: 10px 0; /* Add padding for spacing */
