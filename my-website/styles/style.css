@@ -38,6 +38,14 @@ h2 {
   margin-bottom: 20px;
 }
 
+.event-dates {
+  font-size: 2rem; /* Adjust font size for emphasis */
+  font-weight: bold; /* Make the dates bold */
+  color: #555555; /* Use a subtle gray color for contrast */
+  margin: 10px 0; /* Add spacing above and below */
+  letter-spacing: 1px; /* Add slight spacing between letters */
+}
+
 h3 {
   font-size: 1.5rem;
   color: #000000; /* Black text for smaller headings */
