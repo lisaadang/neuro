@@ -253,4 +253,6 @@ footer.container {
   background-color: #e4ff97; /* Light green background */
   padding: 20px; /* Add padding for spacing */
   text-align: center; /* Center-align the text */
+  max-width: 100%; /* Make the footer span the full width of the page */
+  margin: 0; /* Remove any horizontal margins */
 }
