@@ -30,8 +30,8 @@ a {
 
 a:hover {
   text-decoration: underline; /* Add underline on hover */
-  text-decoration-thickness: 12px; /* Make the underline thicker */
-  text-underline-offset: 4px; /* Optional: Add some space between the text and the underline */
+  text-decoration-thickness: 16px; /* Make the underline thicker */
+  text-underline-offset: -8px; /* Optional: Add some space between the text and the underline */
   text-decoration-color: #e4ff97; /* Change the underline color on hover */
 }
 
@@ -155,7 +155,7 @@ button:focus {
 }
 
 .tab-button:hover {
-  background: #000000; /* Light gray background on hover */
+  background: rgb(144, 0, 255); /* Light gray background on hover */
   color: #ffffff; /* Black text on hover */
 }
 
