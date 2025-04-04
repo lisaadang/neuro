@@ -121,6 +121,7 @@ button:focus {
   font-size: 1rem; /* Standard font size */
   transition: background 0.3s ease, color 0.3s ease;
   border-radius: 0px; /* Add corner radius */
+  transform: none; /* Explicitly remove any transform effects */
 }
 
 .tab-button:first-child {
@@ -144,7 +145,6 @@ button:focus {
 .tab-button:hover {
   background: #000000; /* Light gray background on hover */
   color: #ffffff; /* Black text on hover */
-  transform: 0;
 }
 
 .tab-content {
