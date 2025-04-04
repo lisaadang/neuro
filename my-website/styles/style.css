@@ -123,6 +123,23 @@ button:focus {
 }
 
 @media (max-width: 768px) {
+  header.container {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center-align the content */
+  }
+
+  #rsvp {
+    order: -1; /* Move the RSVP button above the <h2> */
+    margin-bottom: 20px; /* Add spacing below the button */
+  }
+
+  h2 {
+    order: 0; /* Ensure the <h2> stays below the button */
+  }
+}
+
+@media (max-width: 768px) {
   .gallery-caption {
     display: flex; /* Use flexbox for alignment */
     flex-direction: row; /* Ensure arrows are in a row */
