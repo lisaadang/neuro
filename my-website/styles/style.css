@@ -183,6 +183,7 @@ button:focus {
 }
 
 /* Gallery Section */
+
 .gallery-caption {
   display: flex; /* Use flexbox for alignment */
   justify-content: space-between; /* Space out the arrows */
@@ -210,6 +211,8 @@ button:focus {
 #next-btn:hover {
   color: #e4ff97; /* Change arrow color on hover */
 }
+
+/* Gallery Image Styles */
 
 #gallery-caption-text {
   font-size: 1rem; /* Standard font size for captions */
