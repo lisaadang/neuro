@@ -211,3 +211,9 @@ button:focus {
   margin: 0 auto; /* Center the image horizontally */
 }
 
+/* Hotel */
+#hotel {
+  background-color: #ffffff;
+  padding: 30px;
+  text-align: left;
+}
