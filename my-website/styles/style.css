@@ -253,7 +253,7 @@ button:focus {
 }
 
 .tab-content.active {
-  display: block; /* Show only the active tab content */
+  display: -webkit-box;
 }
 
 .agenda-list {
