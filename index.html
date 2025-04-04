@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Event Website</title>
   <link rel="stylesheet" href="my-website/styles/style.css">
 </head>
@@ -74,10 +75,16 @@
   <div class="gallery-container">
     <img id="gallery-image" src="my-website/images/nakashimatop-full.jpg" alt="Gallery Image 1" onclick="nextImage()">
     <div class="gallery-caption">
-      <button id="prev-btn" onclick="prevImage()">&#9664;</button>
+      <button id="prev-btn" onclick="prevImage()">
+        <span class="material-icons">chevron_left</span>
+      </button>
       <div class="caption-text-container">
         <span id="gallery-caption-text">Caption for Image 1</span>
       </div>
+      <button id="next-btn" onclick="nextImage()">
+        <span class="material-icons">chevron_right</span>
+      </button>
+    </div>
       <button id="next-btn" onclick="nextImage()">&#9654;</button>
     </div>
   </div>
