@@ -83,6 +83,14 @@ button:focus {
   outline: none; /* Remove focus outline */
 }
 
+.text-container {
+  background-color: #ffffff; 
+  padding: 20px; /* Add padding around the text */
+  margin-bottom: 20px; /* Add spacing below the container */
+  text-align: center; /* Center-align the text */
+}
+
+/* RSVP Section */
 #rsvp button {
   margin: 20px 0; /* Add vertical space above and below the button */
 }
