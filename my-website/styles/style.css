@@ -74,7 +74,7 @@ button {
 }
 
 button:hover {
-  background: #e4ff97; /* White background on hover */
+  background: #555555; /* White background on hover */
   color: #ffffff; /* Black text on hover */
 }
 
@@ -107,6 +107,7 @@ button:focus {
   text-align: center; /* Center-align text */
   font-size: 1rem; /* Standard font size */
   transition: background 0.3s ease, color 0.3s ease;
+  border-radius: 0px; /* Add corner radius */
 }
 
 .tab-button:first-child {
