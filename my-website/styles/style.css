@@ -217,8 +217,19 @@ button:focus {
   text-align: left;
 }
 
+/* faq */
 #FAQ {
   background-color: #e4ff97;
   padding: 30px;
   text-align: left;
+}
+
+#FAQ ul li {
+  font-size: 1rem; /* Match the font size of the caption text */
+  line-height: 1.5; /* Adjust line height for better readability */
+  margin-bottom: 10px; /* Add spacing between FAQ items */
+}
+
+#FAQ ul li strong {
+  font-weight: bold; /* Ensure questions are bold for emphasis */
 }
