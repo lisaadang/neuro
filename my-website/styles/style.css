@@ -144,6 +144,7 @@ button:focus {
 .tab-button:hover {
   background: #000000; /* Light gray background on hover */
   color: #ffffff; /* Black text on hover */
+  transform: 0;
 }
 
 .tab-content {
