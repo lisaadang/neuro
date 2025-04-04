@@ -25,12 +25,11 @@ header {
 }
 a {
   text-decoration: none; /* Remove underline */
-  color: purple; /* Set link color to purple */
+  color: rgb(144, 0, 255); /* Set link color to purple */
 }
 
 a:hover {
   text-decoration: underline; /* Add underline on hover for better accessibility */
-  color: darkviolet; /* Optional: Change color on hover for better interactivity */
 }
 
 h1 {
