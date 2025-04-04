@@ -30,8 +30,9 @@ a {
 
 a:hover {
   text-decoration: underline; /* Add underline on hover */
-  text-decoration-thickness: 2px; /* Make the underline thicker */
+  text-decoration-thickness: 12px; /* Make the underline thicker */
   text-underline-offset: 4px; /* Optional: Add some space between the text and the underline */
+  text-decoration-color: #e4ff97; /* Change the underline color on hover */
 }
 
 h1 {
