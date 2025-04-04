@@ -349,7 +349,7 @@ button:focus {
   background-color: #ffffff;
   padding: 30px;
   text-align: left;
-  margin-bottom: 40px; /* Add space below the FAQ section */
+  padding-bottom: 80px; /* Add space below the FAQ section */
 }
 
 #FAQ ul li {
