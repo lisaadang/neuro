@@ -191,7 +191,7 @@ button:focus {
 .gallery-caption {
   display: flex; /* Use flexbox for alignment */
   justify-content: space-between; /* Space out the arrows */
-  align-items: center; /* Align arrows and caption vertically */
+  align-items: flex-start; /* Align arrows and caption text to the top */
   margin-top: 10px; /* Add spacing above the caption area */
 }
 
