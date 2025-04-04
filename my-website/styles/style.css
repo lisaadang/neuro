@@ -106,7 +106,7 @@ button:focus {
 /* Responsive Styles */
 @media (max-width: 768px) {
   h1 {
-    font-size: 3rem; /* Reduce size for mobile */
+    font-size: 4rem; /* Reduce size for mobile */
     line-height: 1.2; /* Reduce line height for better spacing */
   }
 
