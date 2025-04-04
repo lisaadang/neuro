@@ -277,7 +277,6 @@ button:focus {
   margin: 0; /* Remove default margin for the description */
   font-size: 1rem; /* Standard font size for descriptions */
   color: #000000; /* Black text for descriptions */
-  font-weight: bold;
 }
 
 /* Countdown Timer */
