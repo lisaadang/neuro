@@ -252,6 +252,7 @@ footer.container {
   background-color: #e4ff97; /* Light green background */
   padding: 20px; /* Add padding for spacing */
   text-align: center; /* Center-align the text */
-  max-width: 800px; 
-  margin: 0; /* Remove any horizontal margins */
+  max-width: 800px; /* Match the width of other containers */
+  margin: 0 auto; /* Center the footer horizontally */
+  box-sizing: border-box; /* Ensure padding is included in the width */
 }
