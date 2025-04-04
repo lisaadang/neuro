@@ -251,10 +251,9 @@ button:focus {
 
 footer.container {
   background-color: #e4ff97; /* Light green background */
-  padding: 20px; /* Add padding for spacing */
-  text-align: center; /* Center-align the text */
-  width: 100%;
+  padding: 30px; /* Match the padding of other containers */
+  text-align: left; /* Match the text alignment of other containers */
   max-width: 800px; /* Match the width of other containers */
-  margin: 0 auto; /* Center the footer horizontally */
+  margin: 20px auto; /* Center the footer horizontally and add vertical spacing */
   box-sizing: border-box; /* Ensure padding is included in the width */
 }
