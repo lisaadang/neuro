@@ -171,7 +171,7 @@ button:focus {
 }
 
 .tab-button:hover {
-  background: rgb(144, 0, 255); /* Light gray background on hover */
+  background: #000000; /* Light gray background on hover */
   color: #ffffff; /* Black text on hover */
 }
 
