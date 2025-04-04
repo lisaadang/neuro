@@ -34,6 +34,8 @@ h1 {
   font-weight: 700;
   color: #000000; /* Black text for headings */
   letter-spacing: 1px;
+  font-family: 'Roboto Slab', serif; /* Use Roboto Slab for h1 */
+  
 }
 
 h2 {
@@ -129,13 +131,17 @@ button:focus {
     align-items: center; /* Center-align the content */
   }
 
+  .event-dates {
+    order: 0; /* Keep the dates above the button */
+  }
+
   #rsvp {
-    order: -1; /* Move the RSVP button above the <h2> */
-    margin-bottom: 20px; /* Add spacing below the button */
+    order: 1; /* Move the RSVP button below the dates */
+    margin-top: 10px; /* Add spacing above the button */
   }
 
   h2 {
-    order: 0; /* Ensure the <h2> stays below the button */
+    order: 2; /* Ensure the <h2> stays below the button */
   }
 }
 
