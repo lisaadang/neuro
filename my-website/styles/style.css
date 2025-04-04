@@ -198,7 +198,7 @@ button:focus {
 .caption-text-container {
   flex: 1; /* Allow the caption text to take up available space */
   text-align: center; /* Center-align the caption text */
-  padding: 0 10px; /* Add padding to prevent text from touching the arrows */
+  padding: 10px 10px 0; /* Add padding to prevent text from touching the arrows */
 }
 
 #prev-btn,
