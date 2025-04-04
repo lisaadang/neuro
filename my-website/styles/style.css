@@ -185,7 +185,7 @@ button:focus {
 /* Gallery Section */
 
 #gallery {
-  margin-bottom: 30px; /* Add space below the gallery section */
+  padding-bottom: 30px; /* Add space below the gallery section */
 }
 
 .gallery-caption {
