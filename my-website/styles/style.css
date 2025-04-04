@@ -236,3 +236,9 @@ button:focus {
 #FAQ ul li strong {
   font-weight: bold; /* Ensure questions are bold for emphasis */
 }
+
+footer {
+  background-color: #e4ff97; /* Light green background */
+  padding: 20px; /* Add padding for spacing */
+  text-align: center; /* Center-align the text */
+}
