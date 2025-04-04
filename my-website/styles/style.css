@@ -149,14 +149,6 @@ button:focus {
   background-color: #e4ff97;
 }
 
-.countdown-box {
-  text-align: center;
-  padding: 10px;
-  background: #ffffff; /* Black background for countdown boxes */
-  color: #000000; /* White text */
-  width: 120px;
-}
-
 .countdown-box p {
   font-size: 1rem; /* Standard font size for labels */
   margin: 0; /* Remove default margin to bring labels closer to numbers */
