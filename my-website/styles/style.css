@@ -29,7 +29,9 @@ a {
 }
 
 a:hover {
-  text-decoration: underline; /* Add underline on hover for better accessibility */
+  text-decoration: underline; /* Add underline on hover */
+  text-decoration-thickness: 3px; /* Make the underline thicker */
+  text-underline-offset: 2px; /* Optional: Add some space between the text and the underline */
 }
 
 h1 {
@@ -48,7 +50,7 @@ h2 {
 
 .event-dates {
   font-size: 1.5rem; 
-  color: #555555; 
+  color: rgb(144, 0, 255); 
   margin: 10px 0; 
 }
 
@@ -82,8 +84,8 @@ button {
 }
 
 button:hover {
-  transform: scale(1.1); /* Slightly enlarge the button on hover */
-  background: #555555; /* Change background color on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+  background: rgb(144, 0, 255); /* Change background color on hover */
   color: #ffffff; /* Keep text color on hover */
 }
 
