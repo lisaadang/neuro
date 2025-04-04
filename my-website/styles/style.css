@@ -28,13 +28,6 @@ a {
   color: rgb(144, 0, 255); /* Set link color to purple */
 }
 
-a:hover {
-  text-decoration: underline; /* Add underline on hover */
-  text-decoration-thickness: 16px; /* Make the underline thicker */
-  text-underline-offset: -8px; /* Optional: Add some space between the text and the underline */
-  text-decoration-color: #e4ff97; /* Change the underline color on hover */
-}
-
 h1 {
   margin: 0;
   font-size: 5rem; /* Large, bold heading */
