@@ -128,7 +128,7 @@ button:focus {
 
 @media (max-width: 768px) {
   .agenda-time {
-    font-size: 1rem; /* Increase font size for mobile */
+    font-size: 3rem; /* Increase font size for mobile */
   }
 }
 
