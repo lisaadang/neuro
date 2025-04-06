@@ -259,7 +259,7 @@ button:focus {
 }
 
 .tab-content.active {
-  display: -webkit-box;
+  display: inline;
 }
 
 .agenda-list {
