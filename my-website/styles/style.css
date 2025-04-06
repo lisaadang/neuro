@@ -264,6 +264,8 @@ button:focus {
 
 .agenda-list li {
   margin-bottom: 20px; /* Add spacing between items */
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Stack time and description vertically */
 }
 
 .agenda-time {
@@ -271,6 +273,7 @@ button:focus {
   font-size: 0.8rem; /* Make the time smaller than the description */
   color: #686868; /* Use a lighter color for the time */
   font-weight: bold;
+  margin-bottom: 5px; /* Add spacing below the time */
 }
 
 .agenda-list p {
