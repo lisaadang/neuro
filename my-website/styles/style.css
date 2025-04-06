@@ -127,6 +127,12 @@ button:focus {
 }
 
 @media (max-width: 768px) {
+  .agenda-time {
+    font-size: 1rem; /* Increase font size for mobile */
+  }
+}
+
+@media (max-width: 768px) {
   header.container {
     display: flex; /* Use flexbox for layout */
     flex-direction: column; /* Stack elements vertically */
